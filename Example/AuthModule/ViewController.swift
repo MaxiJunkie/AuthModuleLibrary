@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AuthModule
 
 class ViewController: UIViewController {
 
