@@ -10,6 +10,6 @@ import UIKit
 public final class AuthViewController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = .green
     }
 }
