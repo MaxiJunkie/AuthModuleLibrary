@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import AuthModule
+//import AuthModule
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
