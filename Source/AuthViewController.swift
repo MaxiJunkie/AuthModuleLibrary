@@ -37,7 +37,7 @@ private extension AuthViewController {
         
         view.addSubview(loginTextField)
         NSLayoutConstraint.activate([
-            loginTextField.topAnchor.constraintEqualToSystemSpacingBelow(view.topAnchor, multiplier: Layout.topOffset),
+            loginTextField.topAnchor.constraint(equalTo: view.topAnchor, constant: Layout.topOffset),
             loginTextField.heightAnchor.constraint(equalToConstant: Layout.textFieldSize.height),
             loginTextField.widthAnchor.constraint(equalToConstant: Layout.textFieldSize.width)
         ])
