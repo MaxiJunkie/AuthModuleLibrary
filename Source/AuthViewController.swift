@@ -23,7 +23,7 @@ public final class AuthViewController: UIViewController {
 
 private extension AuthViewController {
     enum Layout {
-        static let topOffset: CGFloat = 50
+        static let yOffset: CGFloat = -100
         static let textFieldSize = CGSize(width: 200, height: 40)
     }
     
@@ -35,12 +35,15 @@ private extension AuthViewController {
         loginTextField.textColor = .black
         loginTextField.keyboardType = .emailAddress
         loginTextField.translatesAutoresizingMaskIntoConstraints = false
+        loginTextField.borderStyle = .roundedRect
+        
         
         view.addSubview(loginTextField)
         NSLayoutConstraint.activate([
-            loginTextField.topAnchor.constraint(equalTo: view.topAnchor, constant: Layout.topOffset),
             loginTextField.heightAnchor.constraint(equalToConstant: Layout.textFieldSize.height),
-            loginTextField.widthAnchor.constraint(equalToConstant: Layout.textFieldSize.width)
+            loginTextField.widthAnchor.constraint(equalToConstant: Layout.textFieldSize.width),
+            loginTextField.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: Layout.yOffset),
+            loginTextField.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
     }
 }
