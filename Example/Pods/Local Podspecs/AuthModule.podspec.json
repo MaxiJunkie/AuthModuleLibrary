@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AuthModule.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/MaxiJunkie/AuthModule",
+  "homepage": "https://github.com/MaxiJunkie/AuthModuleLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "MaxiJunkie": "mstegnienko@agranovsky.org"
   },
   "source": {
-    "git": "https://github.com/MaxiJunkie/AuthModule.git",
+    "git": "https://github.com/MaxiJunkie/AuthModuleLibrary.git",
+    "branch": "dev",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "13.0"
   },
-  "source_files": "AuthModule/Classes/**/*"
+  "source_files": "Source/**/*"
 }

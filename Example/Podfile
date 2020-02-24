@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'AuthModule_Example' do
-  pod 'AuthModule', :path => '../'
+  pod 'AuthModule', :git => 'https://github.com/MaxiJunkie/AuthModuleLibrary.git', :branch => 'dev'
 
   target 'AuthModule_Tests' do
     inherit! :search_paths
@@ -10,5 +10,6 @@ target 'AuthModule_Example' do
     pod 'Nimble', '~> 7.0'
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 6.3.0'
+
   end
 end
