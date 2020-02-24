@@ -822,9 +822,9 @@
 		D69D74317576ABD720C346AC7012C391 /* AuthModule */ = {
 			isa = PBXGroup;
 			children = (
+				F5BDA7A8240467F900286742 /* Source */,
 				570B40A8C07EB2D0CDB4838A43D8A8D9 /* Pod */,
 				3DBCD5B739EC4E58921EEEAF8842FE4B /* Support Files */,
-				F5BDA7A62404614F00286742 /* AuthViewController.swift */,
 			);
 			name = AuthModule;
 			path = ../..;
@@ -867,6 +867,14 @@
 				0D631E9908483F9525A6B3F36F16CC61 /* Quick.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F5BDA7A8240467F900286742 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F5BDA7A62404614F00286742 /* AuthViewController.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
