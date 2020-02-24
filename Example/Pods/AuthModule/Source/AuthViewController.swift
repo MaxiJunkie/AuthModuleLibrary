@@ -28,7 +28,7 @@ private extension AuthViewController {
     }
     
     func setupLayout() {
-        view.backgroundColor = .white
+        view.backgroundColor = .red
         
         loginTextField.placeholder = "Login"
         loginTextField.textAlignment = .left
