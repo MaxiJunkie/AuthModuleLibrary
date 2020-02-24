@@ -37,6 +37,7 @@ private extension AuthViewController {
         loginTextField.translatesAutoresizingMaskIntoConstraints = false
         loginTextField.borderStyle = .roundedRect
         
+        
         view.addSubview(loginTextField)
         NSLayoutConstraint.activate([
             loginTextField.heightAnchor.constraint(equalToConstant: Layout.textFieldSize.height),
