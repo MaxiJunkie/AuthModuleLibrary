@@ -7,6 +7,9 @@
 
 import UIKit
 
-final class AuthViewController: UIViewController {
-    
+public final class AuthViewController: UIViewController {
+    override public func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .red
+    }
 }

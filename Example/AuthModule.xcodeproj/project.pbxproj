@@ -15,7 +15,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		F5BDA7A1240453C200286742 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDA7A0240453C200286742 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		988A2E6B9F5F08ECB6F27AB2 /* Pods-AuthModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AuthModule_Tests/Pods-AuthModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B22ED4F8A465C2DC948DE1CB /* Pods_AuthModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8ADA14E7A09A495B6D2D1BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F5BDA7A0240453C200286742 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +163,6 @@
 		F5BDA79F240453A200286742 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				F5BDA7A0240453C200286742 /* AuthViewController.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -368,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				F5BDA7A1240453C200286742 /* AuthViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
