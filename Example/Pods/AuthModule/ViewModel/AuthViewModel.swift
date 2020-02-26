@@ -83,19 +83,16 @@ extension AuthViewModel {
             }
             throw type.error
         }
-           
         switch type {
             case .login:
                 loginIsValid = true
             case .password:
                 passwordIsValid = true
         }
-       
         return type.text
     }
     
     func signInButtonTapped() {
-        
         if pinIsOn {
             router.showPinModule()
         } else {
